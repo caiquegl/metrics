@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Circular Std Book';
+  src: url('/fonts/Circular-Std-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.around-pretty {
+  width: 100%;
+  max-width: 660px;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.around-height {
+  height: 350px;
+}
+
+.card-product-chart {
+  flex: 1;
+  height: 410px;
+  max-height: 410px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  gap: 25px;
+  box-shadow: 0px 3px 10px #7777771A;
+  border-radius: 5px;
+}
+
+.product-chart {
+  height: 67px;
+}
+
+.box-mount-products {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.produtos-table {
+  margin-top: 55px;
+}
+
+.produtos-table h3 {
+  margin: 0;
+  text-align: left;
+  font: normal normal normal 22px Circular Std Book;
+  letter-spacing: 0px;
+  color: #464A53;
+  margin-bottom: 5px;
+}
+
+.mount-products {
+  font: normal normal normal 16px Circular Std Book;
+  letter-spacing: 0px;
+  color: #464A53;
+}
+
+.container-filter-produtos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.container-filter-produtos-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-filter-produtos-items p {
+  font: normal normal normal 15px Circular Std Book;
+  letter-spacing: 0px;
+  color: #ABAFB3;
+}
+
+.container-filter-produtos-items select {
+  width: 189px;
+  height: 49px;
+  background: #218DFA00 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDFE1;
+  border-radius: 3px;
+  color: #464A53;
+  font-size: 15px;
+  padding: 14px;
+}
+
+@keyframes growProgressBarProduct {
+
+  0%,
+  33% {
+    --pgPercentage: 0;
+  }
+
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbarProduct"] {
+  --size: 5rem;
+  --fg: #71D875;
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBarProduct 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(closest-side, white 85%, transparent 0 99.9%, white 0),
+    conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+}
+
+div[role="progressbarProduct"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+}

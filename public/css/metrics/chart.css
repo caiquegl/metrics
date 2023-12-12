@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "Circular Std Bold";
+  src: url('/fonts/CircularStd-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular Std Book';
+  src: url('/fonts/Circular-Std-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.card-container {
+  width: calc(50% - 20px);
+  color: white;
+  max-height: 190px;
+  box-shadow: 0px 3px 10px #7777771A;
+  border-radius: 5px;
+}
+
+/* Card content */
+.card-content {
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 1100px) {
+  .card-content {
+    padding: 15px;
+  }
+}
+
+.light-chart {
+  font: normal normal normal 16px Circular Std Book;
+  letter-spacing: 0px;
+  color: #ABAFB3;
+}
+
+/* Title */
+.card-title {
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: left;
+  color: #FFFFFF;
+  font: normal normal normal 15px Circular Std Bold;
+  letter-spacing: 0px;
+  width: 100%;
+}
+
+.card-title >div>h3{
+  font: normal normal normal 15px Circular Std Bold;
+}
+
+.card-title>h3{
+  font: normal normal normal 15px Circular Std Bold;
+}
+
+.card-title h1 {
+  font: normal normal normal 20px Circular Std Bold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.card-title .flex-title {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.card-title .flex-title p{
+  font-family: Circular Std Book;
+}
+
+/* Bruto */
+.card-bruto {
+  position: absolute;
+  right: 12px;
+  bottom: 5px;
+}
+
+/* Chart */
+.card-chart {
+  height: 67px;
+  width: 90%;
+  padding-top: 15px;
+}
+
+.col {
+  width: 80%;
+}
+
+/* Progress bars */
+.card-progress-bar3 {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.progress-card {
+  width: 50%;
+  flex: 1;
+}
+
+.progress-card4 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.title-progress {
+  font: normal normal normal 18px Circular Std Book;
+  letter-spacing: 0px;
+  display: flex;
+  width: 100%;
+}
+
+.title-progress p {
+  font-family: Circular Std Book;
+}
+
+.legend-progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: normal normal normal 18px Circular Std Bold;
+  letter-spacing: 0px;
+  color: #464A53;
+}
+
+.legend-progress >div > p{
+  font-family: Circular Std Book;
+}
+
+
+
+.border-right-0 {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* Progress bar styles */
+.progress-bar4 {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+
+/* Left side container */
+.left-container {
+  flex: 2;
+  background-color: #ffffff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+/* Chart styles */
+.chart5 {
+  width: 100%;
+  padding: 50px;
+}
+
+/* Right side container */
+.right-container5 {
+  flex: 1;
+  background-image: linear-gradient(239deg, rgb(13, 96, 148), rgb(7, 48, 74));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-container-product {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Right side text content */
+.right-content5 {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 30px;
+  box-sizing: border-box;
+}
+
+
+.progress-bar__container {
+  width: 100%;
+  height: 8px;
+  margin-bottom: 5px;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  will-change: transform;
+  background-color: #F3F6F9;
+}
+
+.progress-bar {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+
+  top: 0;
+  bottom: 0;
+
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.progress-bar__text {
+  display: none;
+}
+
+.progress-value {
+  font: normal normal normal 18px Circular Std Bold;
+}
+
+
+@keyframes growProgressBar {
+
+  0%,
+  33% {
+    --pgPercentage: 0;
+  }
+
+  100% {
+    --pgPercentage: var(--value);
+  }
+}
+
+@property --pgPercentage {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar"] {
+  --size: 8rem;
+  /* --fg: #369; */
+  --bg: #def;
+  --pgPercentage: var(--value);
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(closest-side, white 90%, transparent 0 99.9%, white 0), conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--fg);
+  position: relative;
+}
+
+.chart-green[role="progressbar"] {
+  --fg: #018200;
+}
+
+.chart-blue[role="progressbar"] {
+  --fg: #369;
+}
+
+div[role="progressbar"]::before {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+
+}
+
+div[role="progressbar"]::after {
+  content: '';
+    position: absolute;
+    height: calc(var(--size) / 2 + 15px);
+    width: calc(10 / 100 * var(--size) + 20px);
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) rotate(calc(var(--pgPercentage) / 100 * 360deg));
+    transform-origin: 50% 100%;
+    animation: growProgressBar 3s 1 forwards;
+    z-index: 1;
+    background-image: radial-gradient(rgb(255 255 255 / 0%) 0 50%, transparent 0 99.9%, white 0), radial-gradient(var(--fg) 0 30%, transparent 50% 100%);
+    background-repeat: no-repeat;
+    background-position: 0px 0;
+    background-size: 40px 40px;
+}

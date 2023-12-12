@@ -1,0 +1,4 @@
+php artisan schedule:run
+$schedule->job(new SendCompany)->everyMinute();
+php artisan queue:work
+crontab (* * * * * cd /caminho/para/o/projeto && php artisan schedule:run >> /dev/null 2>&1)

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.612" height="28.506" viewBox="0 0 29.612 28.506">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_3" data-name="Retângulo 3" width="29.612" height="28.506" fill="none" stroke="#30a23e" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_14" data-name="Grupo 14" clip-path="url(#clip-path)">
+    <path id="Caminho_25" data-name="Caminho 25" d="M12.911,12.527,3.25,18.394a2.6,2.6,0,0,0-.873,3.571l1.735,2.856a2.6,2.6,0,0,0,3.571.873l9.754-5.924,10.487,1.211a.65.65,0,0,0,.63-.983L17.814,2.312a.65.65,0,0,0-1.164.113L14.293,8.792" transform="translate(-0.519 -0.519)" fill="none" stroke="#30a23e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Caminho_26" data-name="Caminho 26" d="M15.683,33.206l.362.6A2.044,2.044,0,1,0,19.54,31.68l-1.956-3.221-3.495,2.122" transform="translate(-3.659 -7.391)" fill="none" stroke="#30a23e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Linha_5" data-name="Linha 5" x2="4.491" y2="7.243" transform="translate(12.427 12.008)" fill="none" stroke="#30a23e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

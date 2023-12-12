@@ -1,0 +1,12 @@
+@media (max-width: 1459px) {
+    .header-logo {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 1290px) {
+    .add-compaign, .add-vip {
+        font-size: 14px;
+    }
+}

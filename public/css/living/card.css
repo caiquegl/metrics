@@ -1,0 +1,170 @@
+:root {
+    --muted-txt: #261362;
+    --muted-campaign: #434343;
+    --text-neon: #00D642;
+    --text-oclused: #ABAFB3;
+}
+
+.full-radius {
+    border-radius: 15px
+}
+
+.card {
+    border: none
+}
+
+.header-custom {
+    background: transparent;
+    border-bottom: none;
+}
+
+.cover-card {
+    width: 100%;
+    object-fit: cover;
+    height: 261px;
+    border-radius: 23px;
+}
+
+.top-negative {
+    margin-top: -7px;
+}
+
+.title-card {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-oclused);
+}
+
+.description {
+    color: var(--second);
+    font-size: 13px;
+    margin: 0px;
+}
+
+.arrow-icon {
+    vertical-align: middle;
+    color: #92929D;
+}
+
+.muted-blue {
+    color: var(--muted-txt);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card-movement {
+    width: 100%;
+    max-width: 788px;
+    height: 132px;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 19px;
+    margin-bottom: 10px;
+}
+
+.book-item {
+    width: 65px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.book-item>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 78px;
+    transform: translate(-50%, -50%);
+}
+
+.vip-total {
+    font-size: 19px;
+    color: #464A53;
+}
+
+.txt-item-card {
+    font-size: 3.5rem;
+    color: var(--primary);
+}
+
+.muted {
+    color: var(--second);
+}
+
+.card-campaing-height {
+    height: 100%;
+    min-height: 11.063rem;
+    width: 100%;
+    max-width: 44.75rem;
+}
+
+.row-gap {
+    row-gap: 1.938rem;
+}
+
+.revert-pos {
+    margin-top: 5px;
+}
+
+.muted-campaign {
+    color: var(--muted-campaign);
+    font-size: 16px;
+}
+
+.sub-handing {
+    color: var(--primary);
+}
+
+.neon-campaign {
+    color: var(--text-neon);
+}
+
+.card-campaing-box {
+    margin-right: 20px;
+}
+
+.card-campaing-box > .card-header {
+    background: #fff;
+    border-bottom: none;
+}
+
+.small-oclused {
+    color: var(--text-oclused);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.refresh {
+    width: 40px;
+    border: none;
+    background: transparent;
+}
+
+.card-banner {    
+    border-radius: 24px;
+}
+
+.card-banner > img{
+    object-fit: fill;
+    height: 267px;
+    border-radius: 39px;
+}
+
+.text-neon {
+    color: var(--text-neon);
+}
+
+.underland-gray {
+    background: #F0F0F0;
+}
+
+.underland-green {
+    background: #1A6223;
+}
+
+.text-changes {
+    color: #1A6223;
+}

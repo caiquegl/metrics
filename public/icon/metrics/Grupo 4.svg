@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_3" data-name="Retângulo 3" width="30" height="30" fill="none" stroke="#0b648f" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(0 -0.351)">
+    <g id="Grupo_3" data-name="Grupo 3" transform="translate(0 0.351)" clip-path="url(#clip-path)">
+      <circle id="Elipse_1" data-name="Elipse 1" cx="4.412" cy="4.412" r="4.412" transform="translate(10.776 10.4)" fill="none" stroke="#0b648f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Caminho_9" data-name="Caminho 9" d="M29.339,18.244V13.095H25.2a9.824,9.824,0,0,0-.97-2.346l2.924-2.925L23.515,4.183,20.59,7.108a9.9,9.9,0,0,0-2.346-.977V2H13.095V6.131a9.9,9.9,0,0,0-2.346.977L7.824,4.183,4.183,7.824l2.924,2.925a9.824,9.824,0,0,0-.97,2.346H2v5.149H6.138a9.824,9.824,0,0,0,.97,2.346L4.183,23.515l3.641,3.641,2.925-2.924a9.9,9.9,0,0,0,2.346.977v4.131h5.149V25.208a9.9,9.9,0,0,0,2.346-.977l2.925,2.924,3.641-3.641L24.231,20.59a9.824,9.824,0,0,0,.97-2.346Z" transform="translate(-0.481 -0.858)" fill="none" stroke="#0b648f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

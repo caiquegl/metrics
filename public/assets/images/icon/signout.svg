@@ -1,0 +1,6 @@
+<svg id="SignOut" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <path id="Vector" d="M0,0H26V26H0Z" fill="none"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0,3.936,3.938,0,7.875" transform="translate(17.94 9.063)" fill="none" stroke="#30a23e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H10.5" transform="translate(11.194 13)" fill="none" stroke="#30a23e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-4" data-name="Vector" d="M6,18.5H.75a.711.711,0,0,1-.53-.246A.9.9,0,0,1,0,17.659V.841A.9.9,0,0,1,.22.246.711.711,0,0,1,.75,0H6" transform="translate(4.167 3.75)" fill="none" stroke="#30a23e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

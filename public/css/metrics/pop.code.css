@@ -1,0 +1,35 @@
+
+[data-anime-popup] {
+    visibility: hidden;
+}
+
+[data-anime-popup].anime-fade {
+    visibility: visible;
+    animation: fade 600ms;
+}
+
+[data-anime-popup].anime-high {
+    visibility: visible;
+    animation: high 600ms;
+}
+
+[data-anime-popup].anime-slide {
+    visibility: visible;
+    animation: slide 600ms;
+}
+
+
+@keyframes high {
+    0% { scale: 0; }
+    100% { scale: 1; }    
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slide {
+    0% { transform: translateX(-255px); }
+    100% { transform: translateX(0px); }
+}

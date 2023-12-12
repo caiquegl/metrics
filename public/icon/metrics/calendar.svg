@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+  <g id="calendar" transform="translate(-2.943 -7.904)">
+    <rect id="Retângulo_54" data-name="Retângulo 54" width="20" height="16" rx="1" transform="translate(3.443 8.404)" fill="none" stroke="#231f20" stroke-width="1"/>
+    <line id="Linha_16" data-name="Linha 16" x2="20" transform="translate(3.443 12.404)" fill="none" stroke="#231f20" stroke-width="1"/>
+    <line id="Linha_17" data-name="Linha 17" y2="2" transform="translate(21.443 8.404)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="1"/>
+    <line id="Linha_18" data-name="Linha 18" y2="2" transform="translate(17.443 8.404)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="1"/>
+    <line id="Linha_19" data-name="Linha 19" y2="2" transform="translate(13.443 8.404)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="1"/>
+    <line id="Linha_20" data-name="Linha 20" y2="2" transform="translate(9.443 8.404)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="1"/>
+    <line id="Linha_21" data-name="Linha 21" y2="2" transform="translate(5.443 8.404)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="1"/>
+    <g id="Retângulo_55" data-name="Retângulo 55" transform="translate(8.443 13.404)" fill="#fff" stroke="#231f20" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Retângulo_60" data-name="Retângulo 60" transform="translate(8.443 18.404)" fill="#fff" stroke="#231f20" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Retângulo_56" data-name="Retângulo 56" transform="translate(14.443 13.404)" fill="#fff" stroke="#231f20" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+    <g id="Retângulo_59" data-name="Retângulo 59" transform="translate(14.443 18.404)" fill="#fff" stroke="#231f20" stroke-width="1">
+      <rect width="4" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="3" fill="none"/>
+    </g>
+  </g>
+</svg>

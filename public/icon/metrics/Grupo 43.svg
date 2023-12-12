@@ -1,0 +1,12 @@
+<svg id="Grupo_43" data-name="Grupo 43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.953" height="16.517" viewBox="0 0 22.953 16.517">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_35" data-name="Retângulo 35" width="22.953" height="16.517" fill="none" stroke="#3b3b3b" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_42" data-name="Grupo 42" clip-path="url(#clip-path)">
+    <path id="Caminho_32" data-name="Caminho 32" d="M22.166,15.665v6.281a2.122,2.122,0,0,1-2.3,1.89H7.619a2.122,2.122,0,0,1-2.3-1.89V17.965" transform="translate(-2.269 -8.264)" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Caminho_33" data-name="Caminho 33" d="M5.134,2a1.732,1.732,0,0,0-1.627.954L2.139,6.21c-.5,1.191.391,2.246,2.037,2.246a3.923,3.923,0,0,0,3-1.379A2.472,2.472,0,0,0,9.611,8.456a3.128,3.128,0,0,0,2.718-1.379,3.128,3.128,0,0,0,2.718,1.379,2.473,2.473,0,0,0,2.435-1.379,3.922,3.922,0,0,0,3,1.379c1.646,0,2.537-1.055,2.037-2.246L21.151,2.954A1.734,1.734,0,0,0,19.524,2Z" transform="translate(-0.852 -1.055)" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Caminho_34" data-name="Caminho 34" d="M20.675,26.721H15.766V23.056A2.159,2.159,0,0,1,18.1,21.134h.239a2.159,2.159,0,0,1,2.335,1.922Z" transform="translate(-6.719 -11.15)" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

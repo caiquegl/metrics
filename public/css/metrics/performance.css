@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('/fonts/Circular-Std-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container-filter-performance {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 31px;
+}
+
+.preformance-table {
+    margin-top: 55px;
+}
+
+.preformance-table h3 {
+    margin: 0;
+    text-align: left;
+    font: normal normal normal 22px Circular Std Book;
+    letter-spacing: 0px;
+    color: #464A53;
+    margin-bottom: 5px;
+}
+
+.preformance-table h6 {
+    margin: 0;
+    text-align: left;
+    font: normal normal normal 16px Circular Std Book;
+    letter-spacing: 0px;
+    color: #ABAFB3;
+}
+
+.max-table {
+    max-width: 886px;
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169.14" height="62.262" viewBox="0 0 169.14 62.262">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_52" data-name="Retângulo 52" width="28.873" height="58.472" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Star_Metrics_logo-03-03-03" data-name="Star Metrics_logo-03-03-03" transform="translate(-23.77 -12.76)">
+    <text id="STARMetrics" transform="translate(51.91 66.022)" fill="#fff" font-size="41" font-family="Futura" font-weight="500" letter-spacing="-0.02em"><tspan x="0" y="0" letter-spacing="-0.03em">S</tspan><tspan y="0" letter-spacing="-0.08em">T</tspan><tspan y="0" letter-spacing="-0.03em">A</tspan><tspan y="0">R</tspan><tspan y="0" letter-spacing="-0.04em">M</tspan><tspan y="0" letter-spacing="-0.02em">etr</tspan><tspan y="0" letter-spacing="-0.04em">i</tspan><tspan y="0" letter-spacing="-0.02em">cs</tspan></text>
+    <g id="Grupo_91" data-name="Grupo 91" transform="translate(23.77 12.76)" clip-path="url(#clip-path)">
+      <path id="Caminho_109" data-name="Caminho 109" d="M59.73,24.869a3.909,3.909,0,0,1,.1-.429,2.548,2.548,0,0,0-.433-2.163,10.993,10.993,0,0,0-3.383-1.213,11.029,11.029,0,0,0-3.548-.6c-.748.169-1.221,1.1-1.437,1.675-.059.227-.106.359-.125.422l8.834,2.317Z" transform="translate(-40.955 -17.615)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Caminho_110" data-name="Caminho 110" d="M55.662,73.818c-.172-1.268-.018-4.384-2.625-7.243-1.5-1.646-1.73-5.337-1.847-7.558s-1.514-16.531-1.474-16.88a2.075,2.075,0,0,0,.319-1.99c-.2-.484-.425-1.169-.6-1.7l-.865.158a17.033,17.033,0,0,1-6.1,0l-.865-.158c-.172.524-.4,1.213-.6,1.7a2.065,2.065,0,0,0,.319,1.99c.044.348-1.356,14.658-1.47,16.88s-.348,5.916-1.847,7.558c-2.606,2.855-2.452,5.971-2.625,7.243s.073,33.389.092,34.833a3.874,3.874,0,0,0,2.273,3.57c.685.22,14.86.22,15.549,0a3.874,3.874,0,0,0,2.273-3.57c.018-1.444.268-33.561.092-34.833" transform="translate(-31.089 -29.033)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Caminho_111" data-name="Caminho 111" d="M53.273,131.188l3.475,1.836-.663-3.893,2.811-2.753-3.885-.568-1.737-3.541-1.737,3.541-3.885.568,2.811,2.753-.663,3.893Z" transform="translate(-38.897 -82.129)" fill="#ef3e42" stroke="#ef3e42" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+    .header>.logo>img {
+        width: 130px;
+        margin-bottom: 20px;
+    }
+
+    .header>.right-header {
+        gap: 15px;
+    }
+
+    .header>.right-header>.tenant-logo>img {
+        height: 70px;
+    }
+    
+    .header>.right-header>.list-workspaces {
+        max-width: 130px;
+    }
+    
+    .header>.right-header>.actions>.flex-action {
+        padding: 0 15px;
+        height: 15px;
+    }
+    
+    .header>.right-header>.actions {
+        margin-bottom: 30px;
+    }
+
+    .home_cards .card i {
+        font-size: 40px;
+    }
+
+    .home_cards .card p {
+        font-size: 25px;
+    }
+
+    .home_cards .card img {
+        height: 50px;
+    }
+
+    .home_cards .card .pt {
+        font-size: 25px;
+    }
+
+    .brands {
+        padding: 0;
+    }
+
+    .p-news {
+        padding: 0;
+    }
+
+    .home_news>.card>.description {
+        padding: 15px;
+    }
+
+    .container-footer {
+        flex-wrap: wrap;
+    }
+
+    .container-green {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .container-white img {
+        height: 150px;
+        width: auto;
+    }
+}

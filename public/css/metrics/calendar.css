@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('/fonts/Circular-Std-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 30px;
+    flex-wrap: nowrap;
+}
+
+/* Estilo para o container do calendário */
+.calendar-container {
+    font-family: Arial, sans-serif;
+    flex: 71%;
+    margin: 0 auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 10px #7777771A;
+    border-radius: 3px;
+    padding: 27px 20px 50px;
+}
+
+/* Estilo para o cabeçalho do calendário */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    color: #464A53;
+    flex-wrap: wrap;
+}
+
+.year-select {
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    width: 56px;
+    height: 27px;
+    text-align: left;
+    font: normal normal normal 15px/54px Circular Std Book;
+    letter-spacing: 0px;
+    color: #6A707E;
+}
+
+.btn-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.month-select {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #464A53;
+    font: normal normal normal 18px Circular Std Book;
+    text-transform: capitalize;
+}
+
+/*.month-select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+}*/
+
+.navigation-buttons {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navigation-buttons i {
+    color: #464A53;
+    font-size: 18px;
+}
+
+.calendar-button {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 3px 10px 6px;
+    font: Circular Std Book;
+}
+
+.today {
+    color: #34C73B;
+    border-color: #34C73B;
+}
+
+.day {
+    border-color: #673BB7;
+    background-color: #673BB7;
+    color: #fff;
+}
+
+.mounth {
+    border-color: #FF9800;
+    background-color: #FF9800;
+    color: #fff;
+}
+
+.week {
+    border-color: #9C27B0;
+    background-color: #9C27B0;
+    color: #fff;
+}
+
+/* Estilo para o calendário */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+}
+
+.day-card-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: Circular Std Book;
+    letter-spacing: 0px;
+    color: #464A53;
+    font-size: 18px;
+    border: 1px solid #EBEBEB;
+
+}
+
+.day-card {
+    border: 1px solid #EBEBEB;
+    font: Circular Std Book;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.day-number {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+    font: Circular Std Book;
+    letter-spacing: 0px;
+    color: #464A53;
+}
+
+/* Estilo para dias fora do mês */
+.inactive-day {
+    color: rgba(70, 74, 83, 0.3) !important;
+}
+
+.list-events {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.card-event {
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    height: 27px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.blue-evt {
+    background-color: #2290FF;
+}
+
+.orange-evt {
+    background-color: #FF9800;
+}
+
+.green-evt {
+    background-color: #34C73B;
+}
+
+.red-evt {
+    background-color: #E91E63;
+}
+
+.violet-evt {
+    background-color: #9C27B0;
+}
+
+.next-company {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 10px #7777771A;
+    border-radius: 3px;
+    padding: 25px 30px 50px;
+    flex: 26%;
+}
+
+.next-company h3 {
+    text-align: left;
+    font: normal normal normal 22px Circular Std Book;
+    letter-spacing: 0px;
+    color: #464A53;
+    margin-bottom: 27px;
+
+}
+
+.company-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.company-checkbox input {
+    height: 20px;
+    width: 20px;
+}
+
+.company-checkbox .bool {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+}
+
+.company-checkbox .label-event {
+    font: normal normal normal 15px Circular Std Book;
+    letter-spacing: 0px;
+    color: #464A53;
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.btn-company {
+    height: 40px;
+    background: #0765A1 0% 0% no-repeat padding-box;
+    box-shadow: 2px 3px 10px #7777771A;
+    border-radius: 3px;
+    width: 100%;
+    font: normal normal normal 18px Circular Std Book;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-company:hover {
+    transition: all 0.4s;
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    .calendar-container {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .next-company {
+        width: 100%;
+    }
+
+    .container-page {
+        padding: 10px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .header-content {
+        display: none;
+    }
+}
+
+/* Breakpoint responsive */
+@media (max-width: 578px) {
+    
+    .calendar-container {
+        position: relative;
+        background: transparent;
+        box-shadow: none;
+        padding-top: 33px;
+    }
+
+    .btn-options {
+        display: none;
+    }
+
+    .next-company { 
+        display: block;
+        background: transparent;
+        box-shadow: none;
+        padding: 5px;
+    }
+
+    .company-checkbox  input[type="checkbox"] {
+        display: none;
+    }
+
+    .company-checkbox .bool {
+        width: 38px;
+        height: 37px;
+        border-radius: 45px;
+    }
+
+    .company-checkbox .label-event {
+        font-size: 20px;
+    }
+
+    .day-number {
+        width: auto;
+        text-align: center;
+    }
+
+    .day-card-header {
+        border: none;
+        border-bottom: 1px solid #EBEBEB;
+    } 
+
+    .day-card {
+        align-items: center;
+        justify-content: center;
+        border: transparent;
+        min-height: 19px !important;
+    }
+    
+    .year-select {
+        display: none;
+    }
+
+    .month-select > span {
+        position: absolute;
+        left: 9px;
+        text-transform: uppercase;
+        font-size: 16px;
+    } 
+}

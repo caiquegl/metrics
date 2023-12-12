@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('/fonts/Circular-Std-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-table {
+    color: #464A53;
+    text-align: left;
+    font: normal normal normal 18px/54px Circular Std Book;
+    letter-spacing: 0px;
+    height: 79px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.row-table {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0.47px 3px 10px #7777771A;
+    border-radius: 3px;
+    text-align: left;
+    font: normal normal normal 16px Circular Std Book;
+    letter-spacing: 0px;
+    color: #6A707E;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.flex-table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.table-status {
+    border-radius: 18px;
+    width: 113px;
+    height: 36px;
+    text-align: center;
+    font: normal normal normal 15px Circular Std Book;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-filter-points {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-bottom: 31px;
+}
+
+.container-filter-points-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-filter-points-items p {
+    font: normal normal normal 15px Circular Std Book;
+    letter-spacing: 0px;
+    color: #ABAFB3;
+}
+
+.container-filter-points-items select {
+    width: 189px;
+    height: 49px;
+    background: #218DFA00 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDFE1;
+    border-radius: 3px;
+    color: #464A53;
+    font-size: 15px;
+    padding: 14px;
+}
+
+.pagination-table {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.pagination-button {
+    color: #ABAFB3;
+    font-size: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0.47px 3px 10px #7777771A;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pagination-button:hover {
+    color: #fff;
+    background-color: #13732A;
+    transition: all 0.3s;
+}
+
+.back-table {
+    margin-right: 10px;
+}
+
+.next-table {
+    margin-left: 10px;
+}
+
+.active-pagination {
+    background-color: #02629F;
+    color: #fff;
+}
