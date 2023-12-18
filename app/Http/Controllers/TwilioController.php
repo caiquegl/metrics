@@ -134,11 +134,10 @@ class TwilioController extends Controller
             $message = $client->messages->create(
                 "whatsapp:+55". $telefone,
                 [
-                    'from' => "whatsapp:+13346001856",
-                    'body' => "O link para seu QR CODE é: " . env('APP_URL') . "/living/qrcode_scan/" .  $uuid,
+                    'from' => "whatsapp:". $twilio_number,
+                    'body' => "O link para seu QR Code é: https://livinghnk.com/living/qrcode_scan/".  $uuid,
                 ]
             );
-            dd($message);
             return true;
         } catch (Exception $ex) {
             echo 'Caught exception: '.  $ex->getMessage();
